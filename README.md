@@ -27,4 +27,14 @@ The mod name, version, and author
 When you toggle a mod, ModManager renames the file from .dll  to .disable and viceverse and shows a warning to restart the game.
 
 Dependencies:
-MelonLoader Installed on the game.
+MelonLoader Installed on the game: https://melonwiki.xyz/#/README?id=melonloader-installation
+
+How to Build:
+Run the game at least once with MelonLoader installed
+Set GameFolder on ModManager.csproj
+Build ModManager.csproj
+
+Check out:
+https://github.com/LavaGang/MelonLoader
+https://github.com/pardeike/Harmony
+https://github.com/TrevTV/MelonLoader.VSWizard
